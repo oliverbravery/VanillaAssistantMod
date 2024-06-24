@@ -6,12 +6,7 @@
   "mixins": [
   ],
   "client": [
-    "HotbarRandomiseMixin",
-    "PauseMenuMixin",
-    "AutoFishMixin",
-    "ShulkerBoxScreenMixin",
-    "ClientConnectionMixin",
-    "ItemEntityMixin"
+    "HotbarRandomiseMixin"
   ],
   "injectors": {
     "defaultRequire": 1

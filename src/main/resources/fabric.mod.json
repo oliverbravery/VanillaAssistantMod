@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "coda",
+  "id": "simplecoda",
   "version": "${version}",
 
-  "name": "Coda",
+  "name": "SimpleCoda",
   "description": "This mod adds client-side features intended to assist the player whilst keeping the game as vanilla as possible.",
   "authors": [
     {
@@ -22,9 +22,6 @@
   "entrypoints": {
     "client": [
       "net.oliverbravery.coda.Coda"
-    ],
-    "modmenu": [
-      "net.oliverbravery.coda.utilities.ModMenuIntegration"
     ]
   },
   "mixins": [
@@ -32,9 +29,9 @@
   ],
 
   "depends": {
-    "fabricloader": ">=0.15.6",
+    "fabricloader": ">=0.15.11",
     "fabric": "*",
-    "minecraft": "1.20.x",
+    "minecraft": "1.21.x",
     "java": ">=17",
     "fabric-key-binding-api-v1": "*"
   },
